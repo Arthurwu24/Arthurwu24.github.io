@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Arthur</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-12-19T09:01:55.394Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Arthur Wu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>产品经理的过去</title>
+    <link href="http://yoursite.com/2017/12/19/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%9A%84%E8%BF%87%E5%8E%BB/"/>
+    <id>http://yoursite.com/2017/12/19/产品经理的过去/</id>
+    <published>2017-12-19T08:44:58.000Z</published>
+    <updated>2017-12-19T09:01:55.394Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h5 id=&quot;看到周边还是有朋友或者读者问过我关于“产品经理”这个领域的相关问题，这里我也就写一篇文章，说一说我个人对产品经理这个岗位的理解。&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
