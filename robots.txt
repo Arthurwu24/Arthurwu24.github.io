@@ -11,7 +11,4 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://www.jumeispace.com/tags/index.html
-Sitemap: http://www.jumeispace.com/categories/index.html
-Sitemap: http://www.jumeispace.com/about/index.html
 Sitemap: http://www.jumeispace.com/sitemap.xml
