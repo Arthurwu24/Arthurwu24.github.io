@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[不会编程，也能爬虫抓取数据(3)]]></title>
+    <url>%2F2017%2F12%2F22%2Fwebscraper%E6%8A%93%E5%8F%96%E6%95%B0%E6%8D%AE-3%2F</url>
+    <content type="text"><![CDATA[爬虫课程今天的爬虫课程主要讲爬多级页面下的内容。（比如有些页面会有下一页，要点加载下一页或者滑动到下一页） Element scroll down这个是滑动页面加载下一页。 这里以微博为例，爬取加载下一页的当前页面内容的标题。 以自己老早之前写的微博为例，id：Arthurwu24 前面的步骤与之前创建步骤都一样，所以直接进入主题。 创建selector，Type填Element scroll down，其他都一样 创建好后，再双击创建子元素 跟之前一样，只需要填写id、type就行了。这里因为爬取的是title，所以id写title，type填text，其他的都不用动 创建完子元素后，就可以直接进行抓取了，你大致会得到下面的结果 基本上这就是 Element scroll down的爬虫过程了。（与之前的操作没什么区别，主要是type换了。而且有Element本身无法读取到内容，因此都需要进行子元素的操作） 爬所有页面的文本之前的文章中，我们讲了下如何操作爬取单个页面的标题Text，这里讲解下怎么读取所有页面的操作。 同样以之前操作的刘飞老师为例。 链接地址为：https://www.zhihu.com/people/laufei/posts 进到该页面中，我们可以看到刘飞老师的文章一共有3页，所以我们这里就要爬取3页的数据。 这里爬所有页面的数据，我们要记住的一点是，必须要找到点击每一页后该地址栏的共同特性，如果每个地址并不规律则无法进行操作。 看一下知乎、赶集、拉手的一些特征： 可以看到，知乎上的共同点都是 ?page=n，赶集是on（n代表1，2，3，4…页码）。 因此，这里我们就以知乎刘飞老师的为例，进行演示说明。 在url地址中填写的是 ?page=[1-3]（因为我们这里有3页，如果是10页，就是1-10） 填写id、type，这步骤跟之前都一样 最后直接进行scrape抓取操作，得到的界面大致如下所示 可以看到红框中的显示，有page1，page2，page3，表明抓取成功。 Element click selector(第一种）这里要讲解的是另一种Type，点击加载选择器。 我们这里以 IT桔子中搜索英语的结果为例。 链接地址为：https://www.itjuzi.com/search?word=%E8%8B%B1%E8%AF%AD 我们可以看到，它的下一页是要通过点击“加载更多”才能进行操作的，而不是直接鼠标滑动自动加载。 一样的操作，我们Type这里填 Element click，第一个Selector选择前2个标题，第二个Selector选择“加载更多”按钮。click type选择click more，click element uniqueness选择unique css selector 之后选择子元素选择器，跟之前操作一样，我们这里id选择第一个标题title，type选择text，其他的不需要动即可 之后直接进行scrape操作，然后我们可以看到这样的界面 到这里，我们的Element click操作基本就结束了。 Element click selector(第二种)这里我们讲解的是“点击加载选择器”的另一种方式。 这里以读取所有评论为例。 链接地址为：https://weibo.com/5745019302/DCC6EAQdO?type=comment 一样的操作，我们Type这里填 Element click，第一个Selector同样选择前2个标题，第二个Selector选择下面的页码，这里选择前2个（1和2），其他所有的页码就全部选中了。click type选择click once，click element uniqueness选择unique text 同样的，我们再选择子元素，只选择第一条评论，作为title就可以了 之后直接进行scrape操作，就能看到我们想要的界面了，会得到所有页码的评论信息。 这里说一下，click type里的2个选项的区别，如下所示： 再说一下，click element uniqueness中的选项的区别，如下所示： 这次就大概把需要点击操作，多页码爬取的步骤都说了下，下次会讲解下怎么进行多页面的爬虫操作（比如有些操作是需要多页面进行的，不同的页面有不同的操作）]]></content>
+      <categories>
+        <category>爬虫抓数据</category>
+      </categories>
+      <tags>
+        <tag>爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[不会编程，也能爬虫抓取数据(2)]]></title>
     <url>%2F2017%2F12%2F22%2Fwebscraper%E6%8A%93%E5%8F%96%E6%95%B0%E6%8D%AE-2%2F</url>
     <content type="text"><![CDATA[爬虫课程今天的爬虫课程主要教爬图片和结构体。 爬图片前面跟爬文本是一样的操作。 这里以一个图片链接为例子：http://www.woyaogexing.com/tupian/z/gougou 直接上操作图。比文本多了的选项就是多勾选了个 Download image（因为图片可以下载到本地）。 这样就会把所有的图片下载到本地了。 命名的格式，就是 sitemap name – id，生成的文件夹就是id名嵌套在sitemap name中。 爬结构体什么是结构体？ 就是不再是单一的文本和图片了，已经有了嵌套关系了。 比如我们都租房过，租房信息上会有多元的信息，标题、价格、地理位置等… 所以，这里我们就要用到Element选择器了。 下面开始结构体的讲解了，这里以58同城租房为例子。 Create new sitemap 填写id，type选择 Element，其他都一样，这里是建立父元素 得到创建完selector的界面，我们双击红圈中的标记，进入到子元素的界面 可以看到租房的父元素下有5个子元素，我们这里仅以title为例，其他4个都一样的操作，只填写Id和Type（这里Type填Text，因为标题等都是纯文本），multiple不勾选、Delay不填，因为父元素都填过了，Parent Selectors默认选中的就是我们的子元素，不用更改。2项填完后，我们点击 Save 就可以了 5个子元素都Save完成之后，我们得到下面的界面 这时候，如果我们点击sitemap下拉框，选择Select graph，我们可以得到一个父元素和子元素的tree 点击Scrape后，就可以完成爬虫操作了，之后我们得到下面的界面 这样，我们的结构体教程到这就结束了，我们也可以下载成excel文件导出来]]></content>
