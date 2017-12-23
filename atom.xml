@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-23T10:07:49.639Z</updated>
+  <updated>2017-12-23T12:37:15.643Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>聊聊直播和短视频(1)</title>
+    <link href="http://yoursite.com/2017/12/23/%E7%9F%AD%E8%A7%86%E9%A2%91/"/>
+    <id>http://yoursite.com/2017/12/23/短视频/</id>
+    <published>2017-12-23T10:19:40.000Z</published>
+    <updated>2017-12-23T12:37:15.643Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这两年来，中国的风口是从直播吹到了短视频。&lt;/p&gt;
+&lt;p&gt;下面就说说我个人这几年来对直播和短视频的理解和看法。&lt;/p&gt;
+&lt;h3 id=&quot;直播&quot;&gt;&lt;a href=&quot;#直播&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="产品分析" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/"/>
+    
+    
+      <category term="短视频" scheme="http://yoursite.com/tags/%E7%9F%AD%E8%A7%86%E9%A2%91/"/>
+    
+      <category term="产品分析" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/"/>
+    
+      <category term="直播" scheme="http://yoursite.com/tags/%E7%9B%B4%E6%92%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>不会编程，也能爬虫抓取数据(4)</title>
