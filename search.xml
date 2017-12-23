@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[不会编程，也能爬虫抓取数据(4)]]></title>
+    <url>%2F2017%2F12%2F22%2Fwebscraper%E6%8A%93%E5%8F%96%E6%95%B0%E6%8D%AE-4%2F</url>
+    <content type="text"><![CDATA[爬虫课程今天要讲的是关于如何结合运用多个selector。 比如，你看58租房平台的信息，但是首页是不显示电话号码的，非要点进每天信息的详情页中才能看到电话，那么怎么才能把这些聚合在一起，连电话号码都一起抓取出来呢？ 这里，以58同城租房为例。 链接地址为：http://bj.58.com/chuzu/?key%20=%20%E7%A7%9F%E6%88%BF%20&amp;%20cmcskey%20=%20%E7%A7%9F%E6%88%BF%20&amp;%20final=1&amp;jump=1&amp;specialtype=gls 结合多个选择器我们这里进行上面所说的多级页面，把详情页面的电话号码也抓取出来的操作。 第一步跟之前的操作一样，建立house这个大的父元素，Type选择Element，框选选择前两个大的租房的整块元素 这里我们再建立子元素，就不做5个子元素的演示了，仅仅以其中一个子元素title标题为例 然后再建立点击title到详情页，用来抓对应的电话号码的url链接 然后我们得到了以下界面： 之后为了能获取到详情页面的电话号码，因为是另开的页面，所以我们需要点击title标题到详情页，在详情页中再打开webscraper进行电话号码的抓取 接下来就在link下进行电话号码子元素控制器的建立 这一步结束后，我们就可以直接点击scrape进行抓取操作了，最终得到的界面是这样的 到这里，我们这次的多界面，结合多个选择器进行爬虫抓取数据的操作就算结束了。]]></content>
+      <categories>
+        <category>爬虫抓数据</category>
+      </categories>
+      <tags>
+        <tag>爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[不会编程，也能爬虫抓取数据(3)]]></title>
     <url>%2F2017%2F12%2F22%2Fwebscraper%E6%8A%93%E5%8F%96%E6%95%B0%E6%8D%AE-3%2F</url>
     <content type="text"><![CDATA[爬虫课程今天的爬虫课程主要讲爬多级页面下的内容。（比如有些页面会有下一页，要点加载下一页或者滑动到下一页） Element scroll down这个是滑动页面加载下一页。 这里以微博为例，爬取加载下一页的当前页面内容的标题。 以自己老早之前写的微博为例，id：Arthurwu24 前面的步骤与之前创建步骤都一样，所以直接进入主题。 创建selector，Type填Element scroll down，其他都一样 创建好后，再双击创建子元素 跟之前一样，只需要填写id、type就行了。这里因为爬取的是title，所以id写title，type填text，其他的都不用动 创建完子元素后，就可以直接进行抓取了，你大致会得到下面的结果 基本上这就是 Element scroll down的爬虫过程了。（与之前的操作没什么区别，主要是type换了。而且有Element本身无法读取到内容，因此都需要进行子元素的操作） 爬所有页面的文本之前的文章中，我们讲了下如何操作爬取单个页面的标题Text，这里讲解下怎么读取所有页面的操作。 同样以之前操作的刘飞老师为例。 链接地址为：https://www.zhihu.com/people/laufei/posts 进到该页面中，我们可以看到刘飞老师的文章一共有3页，所以我们这里就要爬取3页的数据。 这里爬所有页面的数据，我们要记住的一点是，必须要找到点击每一页后该地址栏的共同特性，如果每个地址并不规律则无法进行操作。 看一下知乎、赶集、拉手的一些特征： 可以看到，知乎上的共同点都是 ?page=n，赶集是on（n代表1，2，3，4…页码）。 因此，这里我们就以知乎刘飞老师的为例，进行演示说明。 在url地址中填写的是 ?page=[1-3]（因为我们这里有3页，如果是10页，就是1-10） 填写id、type，这步骤跟之前都一样 最后直接进行scrape抓取操作，得到的界面大致如下所示 可以看到红框中的显示，有page1，page2，page3，表明抓取成功。 Element click selector(第一种）这里要讲解的是另一种Type，点击加载选择器。 我们这里以 IT桔子中搜索英语的结果为例。 链接地址为：https://www.itjuzi.com/search?word=%E8%8B%B1%E8%AF%AD 我们可以看到，它的下一页是要通过点击“加载更多”才能进行操作的，而不是直接鼠标滑动自动加载。 一样的操作，我们Type这里填 Element click，第一个Selector选择前2个标题，第二个Selector选择“加载更多”按钮。click type选择click more，click element uniqueness选择unique css selector 之后选择子元素选择器，跟之前操作一样，我们这里id选择第一个标题title，type选择text，其他的不需要动即可 之后直接进行scrape操作，然后我们可以看到这样的界面 到这里，我们的Element click操作基本就结束了。 Element click selector(第二种)这里我们讲解的是“点击加载选择器”的另一种方式。 这里以读取所有评论为例。 链接地址为：https://weibo.com/5745019302/DCC6EAQdO?type=comment 一样的操作，我们Type这里填 Element click，第一个Selector同样选择前2个标题，第二个Selector选择下面的页码，这里选择前2个（1和2），其他所有的页码就全部选中了。click type选择click once，click element uniqueness选择unique text 同样的，我们再选择子元素，只选择第一条评论，作为title就可以了 之后直接进行scrape操作，就能看到我们想要的界面了，会得到所有页码的评论信息。 这里说一下，click type里的2个选项的区别，如下所示： 再说一下，click element uniqueness中的选项的区别，如下所示： 这次就大概把需要点击操作，多页码爬取的步骤都说了下，下次会讲解下怎么进行多页面的爬虫操作（比如有些操作是需要多页面进行的，不同的页面有不同的操作）]]></content>
