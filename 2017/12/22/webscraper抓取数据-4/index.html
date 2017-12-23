@@ -91,18 +91,18 @@
 <meta property="og:site_name" content="Arthur">
 <meta property="og:description" content="爬虫课程今天要讲的是关于如何结合运用多个selector。 比如，你看58租房平台的信息，但是首页是不显示电话号码的，非要点进每天信息的详情页中才能看到电话，那么怎么才能把这些聚合在一起，连电话号码都一起抓取出来呢？ 这里，以58同城租房为例。 结合多个选择器我们这里进行上面所说的多级页面，把详情页面的电话号码也抓取出来的操作。  第一步跟之前的操作一样，建立house这个大的父元素，Type选择">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/images/house1.png">
-<meta property="og:image" content="http://yoursite.com/images/house2.png">
-<meta property="og:image" content="http://yoursite.com/images/house3.png">
-<meta property="og:image" content="http://yoursite.com/images/house4.png">
-<meta property="og:image" content="http://yoursite.com/images/house5.png">
-<meta property="og:image" content="http://yoursite.com/images/house6.png">
-<meta property="og:image" content="http://yoursite.com/images/house7.png">
-<meta property="og:updated_time" content="2017-12-23T03:10:22.300Z">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/house1.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/house2.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/house3.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/house4.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/house5.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/house6.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/house7.png">
+<meta property="og:updated_time" content="2017-12-23T10:07:49.639Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="不会编程，也能爬虫抓取数据(4)">
 <meta name="twitter:description" content="爬虫课程今天要讲的是关于如何结合运用多个selector。 比如，你看58租房平台的信息，但是首页是不显示电话号码的，非要点进每天信息的详情页中才能看到电话，那么怎么才能把这些聚合在一起，连电话号码都一起抓取出来呢？ 这里，以58同城租房为例。 结合多个选择器我们这里进行上面所说的多级页面，把详情页面的电话号码也抓取出来的操作。  第一步跟之前的操作一样，建立house这个大的父元素，Type选择">
-<meta name="twitter:image" content="http://yoursite.com/images/house1.png">
+<meta name="twitter:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/house1.png">
 
 
 
@@ -429,29 +429,29 @@
 <ul>
 <li>第一步跟之前的操作一样，建立house这个大的父元素，Type选择<strong>Element</strong>，框选选择前两个大的租房的整块元素</li>
 </ul>
-<p><img src="/images/house1.png" alt="house"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/house1.png">
 <ul>
 <li>这里我们再建立子元素，就不做5个子元素的演示了，仅仅以其中一个子元素title标题为例</li>
 </ul>
-<p><img src="/images/house2.png" alt="house"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/house2.png">
 <ul>
 <li>然后再建立点击title到详情页，用来抓对应的电话号码的url链接</li>
 </ul>
-<p><img src="/images/house3.png" alt="url"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/house3.png">
 <p>然后我们得到了以下界面：</p>
-<p><img src="/images/house4.png" alt="house"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/house4.png">
 <ul>
 <li>之后为了能获取到详情页面的电话号码，因为是另开的页面，所以我们需要点击title标题到详情页，在详情页中再打开webscraper进行电话号码的抓取</li>
 </ul>
-<p><img src="/images/house5.png" alt="house"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/house5.png">
 <ul>
 <li>接下来就在link下进行电话号码子元素控制器的建立</li>
 </ul>
-<p><img src="/images/house6.png" alt="house"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/house6.png">
 <ul>
 <li>这一步结束后，我们就可以直接点击scrape进行抓取操作了，最终得到的界面是这样的</li>
 </ul>
-<p><img src="/images/house7.png" alt="house"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/house7.png">
 <p>到这里，我们这次的多界面，结合多个选择器进行爬虫抓取数据的操作就算结束了。</p>
 
       

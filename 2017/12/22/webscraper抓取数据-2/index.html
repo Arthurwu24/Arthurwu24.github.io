@@ -92,17 +92,17 @@
 <meta property="og:description" content="爬虫课程今天的爬虫课程主要教爬图片和结构体。 爬图片前面跟爬文本是一样的操作。 这里以一个图片链接为例子：http://www.woyaogexing.com/tupian/z/gougou 直接上操作图。比文本多了的选项就是多勾选了个 Download image（因为图片可以下载到本地）。  这样就会把所有的图片下载到本地了。 命名的格式，就是 sitemap name – id，生成的文件夹">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/images/webscraper9.png">
-<meta property="og:image" content="http://yoursite.com/images/zufang.png">
-<meta property="og:image" content="http://yoursite.com/images/zufang1.png">
-<meta property="og:image" content="http://yoursite.com/images/zufang2.png">
-<meta property="og:image" content="http://yoursite.com/images/zufang3.png">
-<meta property="og:image" content="http://yoursite.com/images/zufang4.png">
-<meta property="og:image" content="http://yoursite.com/images/zufang5.png">
-<meta property="og:image" content="http://yoursite.com/images/zufang6.png">
-<meta property="og:image" content="http://yoursite.com/images/zufang7.png">
-<meta property="og:image" content="http://yoursite.com/images/zufang8.png">
-<meta property="og:image" content="http://yoursite.com/images/zufang9.png">
-<meta property="og:updated_time" content="2017-12-21T16:36:48.954Z">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang1.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang2.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang3.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang4.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang5.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang6.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang7.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang8.png">
+<meta property="og:image" content="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang9.png">
+<meta property="og:updated_time" content="2017-12-23T10:02:01.207Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="不会编程，也能爬虫抓取数据(2)">
 <meta name="twitter:description" content="爬虫课程今天的爬虫课程主要教爬图片和结构体。 爬图片前面跟爬文本是一样的操作。 这里以一个图片链接为例子：http://www.woyaogexing.com/tupian/z/gougou 直接上操作图。比文本多了的选项就是多勾选了个 Download image（因为图片可以下载到本地）。  这样就会把所有的图片下载到本地了。 命名的格式，就是 sitemap name – id，生成的文件夹">
@@ -436,39 +436,39 @@
 <h4 id="爬结构体"><a href="#爬结构体" class="headerlink" title="爬结构体"></a>爬结构体</h4><p>什么是结构体？</p>
 <p>就是不再是单一的文本和图片了，已经有了嵌套关系了。</p>
 <p>比如我们都租房过，租房信息上会有多元的信息，标题、价格、地理位置等… </p>
-<p><img src="/images/zufang.png" alt="zufang"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang.png">
 <p>所以，这里我们就要用到<strong>Element</strong>选择器了。</p>
 <p>下面开始结构体的讲解了，这里以58同城租房为例子。</p>
 <ul>
 <li>Create new sitemap</li>
 </ul>
-<p><img src="/images/zufang1.png" alt="zufang1"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang1.png">
 <ul>
 <li>填写id，type选择 Element，其他都一样，这里是建立父元素</li>
 </ul>
-<p><img src="/images/zufang2.png" alt="zufang2"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang2.png">
 <ul>
 <li>得到创建完selector的界面，我们双击红圈中的标记，进入到子元素的界面</li>
 </ul>
-<p><img src="/images/zufang3.png" alt="zufang3"></p>
-<p><img src="/images/zufang4.png" alt="zufang4"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang3.png">
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang4.png">
 <ul>
 <li>可以看到租房的父元素下有5个子元素，我们这里仅以title为例，其他4个都一样的操作，只填写Id和Type（这里Type填Text，因为标题等都是纯文本），multiple不勾选、Delay不填，因为父元素都填过了，Parent Selectors默认选中的就是我们的子元素，不用更改。2项填完后，我们点击 Save 就可以了</li>
 </ul>
-<p><img src="/images/zufang5.png" alt="zufang5"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang5.png">
 <ul>
 <li>5个子元素都Save完成之后，我们得到下面的界面</li>
 </ul>
-<p><img src="/images/zufang6.png" alt="zufang6"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang6.png">
 <ul>
 <li>这时候，如果我们点击sitemap下拉框，选择Select graph，我们可以得到一个父元素和子元素的tree</li>
 </ul>
-<p><img src="/images/zufang7.png" alt="zufang7"></p>
-<p><img src="/images/zufang8.png" alt="zufang8"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang7.png">
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang8.png">
 <ul>
 <li>点击Scrape后，就可以完成爬虫操作了，之后我们得到下面的界面</li>
 </ul>
-<p><img src="/images/zufang9.png" alt="zufang9"></p>
+<img src="http://p1c4wgqff.bkt.clouddn.com/static/images/zufang9.png">
 <p>这样，我们的结构体教程到这就结束了，我们也可以下载成excel文件导出来</p>
 
       
