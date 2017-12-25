@@ -47,19 +47,19 @@
     <link href="http://yoursite.com/2017/12/23/%E7%9B%B4%E6%92%AD/"/>
     <id>http://yoursite.com/2017/12/23/直播/</id>
     <published>2017-12-23T10:19:40.000Z</published>
-    <updated>2017-12-23T12:37:15.643Z</updated>
+    <updated>2017-12-25T13:26:47.506Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;这两年来，中国的风口是从直播吹到了短视频。&lt;/p&gt;
+      &lt;p&gt;这两年来，中国的风口是从直播吹到了短视频。&lt;/p&gt;
 &lt;p&gt;下面就说说我个人这几年来对直播和短视频的理解和看法。&lt;/p&gt;
-&lt;h3 id=&quot;直播&quot;&gt;&lt;a href=&quot;#直播&quot; class=&quot;headerlink&quot;
-        
-      
+&lt;h3 id=&quot;直播&quot;&gt;&lt;a href=&quot;#直播&quot; class=&quot;headerlink&quot; title=&quot;直播&quot;&gt;&lt;/a&gt;直播&lt;/h3&gt;&lt;p&gt;直播是在15年开始兴起的，但在16年迎来了“网络直播元年”，彻底引爆了市场。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;映客2年估值70亿&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;陌陌在切入直播领域后股价飙升，直播占陌陌年收入的80%&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;市场各大平台主播薪资相比15年大概翻了10倍，头部的游戏主播甚至年收入基本过千万&lt;/p&gt;
     
     </summary>
     
@@ -79,17 +79,13 @@
     <link href="http://yoursite.com/2017/12/22/webscraper%E6%8A%93%E5%8F%96%E6%95%B0%E6%8D%AE-4/"/>
     <id>http://yoursite.com/2017/12/22/webscraper抓取数据-4/</id>
     <published>2017-12-22T14:24:18.000Z</published>
-    <updated>2017-12-23T10:07:49.639Z</updated>
+    <updated>2017-12-25T13:27:23.434Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;爬虫课程&quot;&gt;&lt;a href=&quot;#爬虫课程&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h3 id=&quot;爬虫课程&quot;&gt;&lt;a href=&quot;#爬虫课程&quot; class=&quot;headerlink&quot; title=&quot;爬虫课程&quot;&gt;&lt;/a&gt;爬虫课程&lt;/h3&gt;&lt;p&gt;今天要讲的是关于如何结合运用多个selector。&lt;/p&gt;
+&lt;p&gt;比如，你看58租房平台的信息，但是首页是不显示电话号码的，非要点进每天信息的详情页中才能看到电话，那么怎么才能把这些聚合在一起，连电话号码都一起抓取出来呢？&lt;/p&gt;
+&lt;p&gt;这里，以&lt;a href=&quot;http://bj.58.com/chuzu/?key%20=%20%E7%A7%9F%E6%88%BF%20&amp;amp;%20cmcskey%20=%20%E7%A7%9F%E6%88%BF%20&amp;amp;%20final=1&amp;amp;jump=1&amp;amp;specialtype=gls&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;58同城租房&lt;/a&gt;为例。&lt;br&gt;
     
     </summary>
     
@@ -105,17 +101,14 @@
     <link href="http://yoursite.com/2017/12/22/webscraper%E6%8A%93%E5%8F%96%E6%95%B0%E6%8D%AE-3/"/>
     <id>http://yoursite.com/2017/12/22/webscraper抓取数据-3/</id>
     <published>2017-12-22T02:21:03.000Z</published>
-    <updated>2017-12-23T10:06:16.165Z</updated>
+    <updated>2017-12-25T13:28:02.169Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;爬虫课程&quot;&gt;&lt;a href=&quot;#爬虫课程&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h3 id=&quot;爬虫课程&quot;&gt;&lt;a href=&quot;#爬虫课程&quot; class=&quot;headerlink&quot; title=&quot;爬虫课程&quot;&gt;&lt;/a&gt;爬虫课程&lt;/h3&gt;&lt;p&gt;今天的爬虫课程主要讲爬&lt;strong&gt;多级页面&lt;/strong&gt;下的内容。（比如有些页面会有下一页，要点加载下一页或者滑动到下一页）&lt;/p&gt;
+&lt;h4 id=&quot;Element-scroll-down&quot;&gt;&lt;a href=&quot;#Element-scroll-down&quot; class=&quot;headerlink&quot; title=&quot;Element scroll down&quot;&gt;&lt;/a&gt;Element scroll down&lt;/h4&gt;&lt;p&gt;这个是滑动页面加载下一页。&lt;/p&gt;
+&lt;p&gt;这里以微博为例，爬取加载下一页的当前页面内容的标题。&lt;/p&gt;
+&lt;p&gt;以自己老早之前写的微博为例，id：&lt;a href=&quot;https://weibo.com/p/1005052996070562/home?from=page_100505&amp;amp;mod=TAB&amp;amp;is_all=1#_rnd1513909777211&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Arthurwu24&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
@@ -131,18 +124,13 @@
     <link href="http://yoursite.com/2017/12/22/webscraper%E6%8A%93%E5%8F%96%E6%95%B0%E6%8D%AE-2/"/>
     <id>http://yoursite.com/2017/12/22/webscraper抓取数据-2/</id>
     <published>2017-12-21T16:00:44.000Z</published>
-    <updated>2017-12-23T10:02:01.207Z</updated>
+    <updated>2017-12-25T13:28:31.450Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;爬虫课程&quot;&gt;&lt;a href=&quot;#爬虫课程&quot; class=&quot;headerlink&quot; title=&quot;爬虫课程&quot;&gt;&lt;/a&gt;爬虫课程&lt;/h3&gt;&lt;p&gt;今天的爬虫课程主要教爬&lt;strong&gt;图片&lt;/strong&gt;和&lt;strong&gt;结构体&lt;/strong&gt;。&lt;/p&gt;
-&lt;h4
-        
-      
+      &lt;h3 id=&quot;爬虫课程&quot;&gt;&lt;a href=&quot;#爬虫课程&quot; class=&quot;headerlink&quot; title=&quot;爬虫课程&quot;&gt;&lt;/a&gt;爬虫课程&lt;/h3&gt;&lt;p&gt;今天的爬虫课程主要教爬&lt;strong&gt;图片&lt;/strong&gt;和&lt;strong&gt;结构体&lt;/strong&gt;。&lt;/p&gt;
+&lt;h4 id=&quot;爬图片&quot;&gt;&lt;a href=&quot;#爬图片&quot; class=&quot;headerlink&quot; title=&quot;爬图片&quot;&gt;&lt;/a&gt;爬图片&lt;/h4&gt;&lt;p&gt;前面跟爬文本是一样的操作。&lt;/p&gt;
+&lt;p&gt;这里以一个图片链接为例子：&lt;a href=&quot;http://www.woyaogexing.com/tupian/z/gougou&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.woyaogexing.com/tupian/z/gougou&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
@@ -158,20 +146,13 @@
     <link href="http://yoursite.com/2017/12/21/webscraper%E6%8A%93%E5%8F%96%E6%95%B0%E6%8D%AE-1/"/>
     <id>http://yoursite.com/2017/12/21/webscraper抓取数据-1/</id>
     <published>2017-12-21T13:50:31.000Z</published>
-    <updated>2017-12-23T09:57:03.759Z</updated>
+    <updated>2017-12-25T13:28:57.076Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;很多人以为只有学会代码，才能爬虫抓数据，这里给大伙讲解一个不用懂编程，也能爬虫抓数据的教程。&lt;/p&gt;
+      &lt;p&gt;很多人以为只有学会代码，才能爬虫抓数据，这里给大伙讲解一个不用懂编程，也能爬虫抓数据的教程。&lt;/p&gt;
 &lt;p&gt;本合集课程会由浅入深，分为3篇。&lt;/p&gt;
-&lt;p&gt;今天第一篇，先从简单的文本、链接、图片、结构体给大家讲解下具体爬虫的过程。&lt;/p&gt;
-&lt;h3 id=&quot;爬虫课程&quot;&gt;&lt;a
-        
-      
+&lt;p&gt;今天第一篇，先从简单的文本、链接、图片、结构体给大家讲解下具体爬虫的过程。&lt;br&gt;
     
     </summary>
     
@@ -187,18 +168,11 @@
     <link href="http://yoursite.com/2017/12/21/%E5%A5%BD%E5%A5%BD%E4%BD%8F/"/>
     <id>http://yoursite.com/2017/12/21/好好住/</id>
     <published>2017-12-21T09:08:52.000Z</published>
-    <updated>2017-12-23T09:52:42.649Z</updated>
+    <updated>2017-12-25T13:29:26.134Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;img src=&quot;http://p1c4wgqff.bkt.clouddn.com/static/images/haohaozhu.png&quot;&gt;
-&lt;h3 id=&quot;历史背景&quot;&gt;&lt;a href=&quot;#历史背景&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;img src=&quot;http://p1c4wgqff.bkt.clouddn.com/static/images/haohaozhu.png&quot;&gt;
     
     </summary>
     
@@ -214,18 +188,13 @@
     <link href="http://yoursite.com/2017/12/21/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%9A%84%E6%9C%AA%E6%9D%A5/"/>
     <id>http://yoursite.com/2017/12/21/产品经理的未来/</id>
     <published>2017-12-21T06:07:53.000Z</published>
-    <updated>2017-12-23T09:50:03.462Z</updated>
+    <updated>2017-12-25T13:30:01.975Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;先来看看通过招聘网站爬虫（后期也会大概写一些关于爬虫类的教学文章），得到的现阶段市面上互联网各大岗位的热度图：&lt;/p&gt;
-&lt;img
-        
-      
+      &lt;p&gt;先来看看通过招聘网站爬虫（后期也会大概写一些关于爬虫类的教学文章），得到的现阶段市面上互联网各大岗位的热度图：&lt;/p&gt;
+&lt;img src=&quot;http://p1c4wgqff.bkt.clouddn.com/static/images/product.png&quot;&gt;
+&lt;p&gt;可以很明显的看到，产品的岗位热度在下降，而运营岗位的热度已经超过了产品。&lt;br&gt;
     
     </summary>
     
@@ -241,18 +210,15 @@
     <link href="http://yoursite.com/2017/12/20/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%9A%84%E7%8E%B0%E5%9C%A8/"/>
     <id>http://yoursite.com/2017/12/20/产品经理的现在/</id>
     <published>2017-12-20T14:30:34.000Z</published>
-    <updated>2017-12-20T15:15:14.056Z</updated>
+    <updated>2017-12-25T13:30:36.726Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;这篇文章主要会涵盖&lt;strong&gt;市场背景、产品经理分类、产品经理成长路径、产品经理职业发展&lt;/strong&gt; 四大块。&lt;/p&gt;
-&lt;h2 id=&quot;市场背景&quot;&gt;&lt;a href=&quot;#市场背景&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;p&gt;这篇文章主要会涵盖&lt;strong&gt;市场背景、产品经理分类、产品经理成长路径、产品经理职业发展&lt;/strong&gt; 四大块。&lt;/p&gt;
+&lt;h2 id=&quot;市场背景&quot;&gt;&lt;a href=&quot;#市场背景&quot; class=&quot;headerlink&quot; title=&quot;市场背景&quot;&gt;&lt;/a&gt;市场背景&lt;/h2&gt;&lt;p&gt;中国市面上直接以“产品经理”冠名的人数有多少？&lt;/p&gt;
+&lt;p&gt;app store有多少中国产品，再加上那些深入到线下的产品（比如智能家居、健身器材、实体电商等等）一个项目可能会有多位产品经理，还有那些没有冠名上“产品经理”的title，但是实际上干的却是产品经理活的很多创业公司的CEO等……&lt;/p&gt;
+&lt;p&gt;没有一个直接的统计，但我想，产品经理人数可能差不多有百万了，而且还在不断的增加。&lt;/p&gt;
+&lt;p&gt;这是我们现在做产品经理的人所面对的基准市场 —  百万人竞争的领域。&lt;br&gt;
     
     </summary>
     
@@ -268,18 +234,12 @@
     <link href="http://yoursite.com/2017/12/19/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%9A%84%E8%BF%87%E5%8E%BB/"/>
     <id>http://yoursite.com/2017/12/19/产品经理的过去/</id>
     <published>2017-12-19T08:44:58.000Z</published>
-    <updated>2017-12-24T02:14:48.076Z</updated>
+    <updated>2017-12-25T13:31:02.774Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;看到周边还是有朋友或者读者问过我关于“产品经理”这个领域的相关问题，这里我也就写一篇文章，说一说我个人对产品经理这个岗位的理解。&lt;/p&gt;
-&lt;p&gt;看到还是有不少人想往产品这个领域挤，有的甚至是工作了5，6年的，然后想换一个互联网的行业（因为听说互联网行业的薪资比较高），一打听
-        
-      
+      &lt;p&gt;看到周边还是有朋友或者读者问过我关于“产品经理”这个领域的相关问题，这里我也就写一篇文章，说一说我个人对产品经理这个岗位的理解。&lt;/p&gt;
+&lt;p&gt;看到还是有不少人想往产品这个领域挤，有的甚至是工作了5，6年的，然后想换一个互联网的行业（因为听说互联网行业的薪资比较高），一打听，看到“产品经理”这个岗位好像不需要啥硬性技能，没有像程序员那样需要天天敲代码，然后title里还有经理二字，薪资呢，也还不错，干的活好像就是一些画画线框图、做做调研、写写分析报告这样的工作，自己完全可以胜任嘛。&lt;br&gt;
     
     </summary>
     
