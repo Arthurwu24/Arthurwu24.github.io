@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-31T08:23:25.213Z</updated>
+  <updated>2018-01-02T08:50:40.843Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>影响力法则</title>
+    <link href="http://yoursite.com/2018/01/02/%E5%BD%B1%E5%93%8D%E5%8A%9B/"/>
+    <id>http://yoursite.com/2018/01/02/影响力/</id>
+    <published>2018-01-02T06:23:04.000Z</published>
+    <updated>2018-01-02T08:50:40.843Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2017年刚刚过去，看了很多知识领域的ip秀。&lt;/p&gt;
+&lt;p&gt;罗胖每年一次的跨年演讲，喜马拉雅拉了几个ip（吴晓波、马东、高晓松等）开了场思想跨年，吴晓波自己每年都会有的“吴晓波年终秀”。&lt;/p&gt;
+&lt;p&gt;这里先谈谈“吴晓波年终秀”。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="个人成长" scheme="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
+    
+    
+      <category term="个人成长" scheme="http://yoursite.com/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
+    
+  </entry>
   
   <entry>
     <title>产品和运营的那些事</title>
