@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-05T04:52:46.123Z</updated>
+  <updated>2018-01-05T07:44:49.337Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>对各大CEO的访谈记录(1)</title>
+    <link href="http://yoursite.com/2018/01/05/%E8%AE%BF%E8%B0%88/"/>
+    <id>http://yoursite.com/2018/01/05/访谈/</id>
+    <published>2018-01-05T05:33:31.000Z</published>
+    <updated>2018-01-05T07:44:49.337Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天在这里记录下美团王慧文、王兴，去哪儿庄辰超，瓜子二手车杨浩涌，关于自身做产品的一些感悟。&lt;/p&gt;
+&lt;p&gt;他们都是对自己做的产品有着极致的理解，对互联网的未来有着自身的远见，因此他们受邀的访问，就深刻反映出了他们对于产品的成功和失败的见解，值得所有做产品的人借鉴。&lt;/p&gt;
+&lt;p&gt;这第一篇会写美团系的王慧文和王兴。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+      <category term="个人成长" scheme="http://yoursite.com/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
+    
+      <category term="王兴" scheme="http://yoursite.com/tags/%E7%8E%8B%E5%85%B4/"/>
+    
+      <category term="王慧文" scheme="http://yoursite.com/tags/%E7%8E%8B%E6%85%A7%E6%96%87/"/>
+    
+  </entry>
   
   <entry>
     <title>所谓的成功，其实就是做影响力</title>
