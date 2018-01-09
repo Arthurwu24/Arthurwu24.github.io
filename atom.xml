@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-09T05:18:42.181Z</updated>
+  <updated>2018-01-09T05:21:08.544Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/01/09/%E8%AE%BF%E8%B0%882/"/>
     <id>http://yoursite.com/2018/01/09/访谈2/</id>
     <published>2018-01-09T03:14:08.000Z</published>
-    <updated>2018-01-09T05:18:42.181Z</updated>
+    <updated>2018-01-09T05:21:08.544Z</updated>
     
     <summary type="html">
     
@@ -42,9 +42,7 @@
     
       <category term="个人成长" scheme="http://yoursite.com/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
     
-      <category term="王兴" scheme="http://yoursite.com/tags/%E7%8E%8B%E5%85%B4/"/>
-    
-      <category term="王慧文" scheme="http://yoursite.com/tags/%E7%8E%8B%E6%85%A7%E6%96%87/"/>
+      <category term="汪华" scheme="http://yoursite.com/tags/%E6%B1%AA%E5%8D%8E/"/>
     
   </entry>
   
