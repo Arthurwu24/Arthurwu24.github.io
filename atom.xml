@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-09T05:23:46.459Z</updated>
+  <updated>2018-01-10T08:33:19.846Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>腾讯QQ和微信的进史(1)</title>
+    <link href="http://yoursite.com/2018/01/10/%E8%85%BE%E8%AE%AF/"/>
+    <id>http://yoursite.com/2018/01/10/腾讯/</id>
+    <published>2018-01-10T07:34:11.000Z</published>
+    <updated>2018-01-10T08:33:19.846Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;做产品的人，在国内怎么都离不开“腾讯”这家公司。&lt;/p&gt;
+&lt;p&gt;PC时代占据你时间的是QQ，移动互联网时代占据你时间的是微信，而这些都是“腾讯”这家公司的产品。&lt;/p&gt;
+&lt;p&gt;虽然老早的“腾讯”确实是因为“&lt;strong&gt;抄袭&lt;/strong&gt;”臭了名声，因为QQ的原因，腾讯拥有着绝对的用户体量，把市面上好的产品拿过来抄一抄，直接用，用户嘴里骂着腾讯，但因为好友关系链全沉淀在QQ端，不得不用。腾讯用这种方式赚了用户不少钱。（各种钻，各种币，各种会员）&lt;/p&gt;
+&lt;p&gt;但是从产品的角度来说，QQ和微信这两款产品，确实是给用户带来了极大的便利。&lt;/p&gt;
+&lt;p&gt;这第一篇先说QQ，因为微信正处于我们现在的移动互联网时代，它的诞生和更迭更值得我们互联网人作为借鉴（&lt;strong&gt;主要还是因为更迭的功能，可说的太多&lt;/strong&gt;）。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="产品分析" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/"/>
+    
+    
+      <category term="产品分析" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/"/>
+    
+      <category term="QQ" scheme="http://yoursite.com/tags/QQ/"/>
+    
+  </entry>
   
   <entry>
     <title>对各大CEO的访谈记录(3)</title>
