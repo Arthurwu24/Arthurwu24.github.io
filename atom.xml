@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-11T10:09:38.800Z</updated>
+  <updated>2018-01-11T10:12:40.130Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/01/11/app%E8%BF%90%E8%90%A5/"/>
     <id>http://yoursite.com/2018/01/11/app运营/</id>
     <published>2018-01-11T08:35:03.000Z</published>
-    <updated>2018-01-11T10:09:38.800Z</updated>
+    <updated>2018-01-11T10:12:40.130Z</updated>
     
     <summary type="html">
     
@@ -37,8 +37,6 @@
     
     
       <category term="运营" scheme="http://yoursite.com/tags/%E8%BF%90%E8%90%A5/"/>
-    
-      <category term="app" scheme="http://yoursite.com/tags/app/"/>
     
   </entry>
   
