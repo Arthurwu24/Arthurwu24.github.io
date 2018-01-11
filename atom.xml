@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-11T08:20:52.340Z</updated>
+  <updated>2018-01-11T10:09:38.800Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于app运营，你需要知道的事</title>
+    <link href="http://yoursite.com/2018/01/11/app%E8%BF%90%E8%90%A5/"/>
+    <id>http://yoursite.com/2018/01/11/app运营/</id>
+    <published>2018-01-11T08:35:03.000Z</published>
+    <updated>2018-01-11T10:09:38.800Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前写过，产品和运营的关系，&lt;a href=&quot;http://jumeispace.com/2017/12/31/%E4%BA%A7%E5%93%81%E5%92%8C%E8%BF%90%E8%90%A5%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;产品和运营的那些事&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;总的来说，产品是从0到1的过程，运营是从1到100、1000、10000的过程。二者是相辅相成的关系，谁也离不开谁。&lt;/p&gt;
+&lt;p&gt;但是在现如今的市场，其实运营的需求市场已经超过了产品，所以之前在产品的未来一文中，我写过产品未来的其中一条路是，产品与运营结合，二者兼备，才能应对未来。&lt;/p&gt;
+&lt;p&gt;接下来的几篇，都会写一写关于运营的文章（用户运营、活动运营、内容运营）。&lt;/p&gt;
+&lt;p&gt;今天主要讲一下，总体的应用市场下app的运营，之后的文章会分&lt;strong&gt;用户运营、活动运营、内容运营&lt;/strong&gt;分别来说。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="运营" scheme="http://yoursite.com/categories/%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="运营" scheme="http://yoursite.com/tags/%E8%BF%90%E8%90%A5/"/>
+    
+      <category term="app" scheme="http://yoursite.com/tags/app/"/>
+    
+  </entry>
   
   <entry>
     <title>腾讯QQ和微信的进化史(2)</title>
@@ -240,9 +266,9 @@
       <category term="产品运营" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81%E8%BF%90%E8%90%A5/"/>
     
     
-      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
       <category term="运营" scheme="http://yoursite.com/tags/%E8%BF%90%E8%90%A5/"/>
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
     
   </entry>
   
@@ -469,30 +495,6 @@
       &lt;p&gt;先来看看通过招聘网站爬虫（后期也会大概写一些关于爬虫类的教学文章），得到的现阶段市面上互联网各大岗位的热度图：&lt;/p&gt;
 &lt;img src=&quot;http://p1c4wgqff.bkt.clouddn.com/static/images/product.png&quot;&gt;
 &lt;p&gt;可以很明显的看到，产品的岗位热度在下降，而运营岗位的热度已经超过了产品。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="产品经理" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/"/>
-    
-    
-      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>产品经理的现在</title>
-    <link href="http://yoursite.com/2017/12/20/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%9A%84%E7%8E%B0%E5%9C%A8/"/>
-    <id>http://yoursite.com/2017/12/20/产品经理的现在/</id>
-    <published>2017-12-20T14:30:34.000Z</published>
-    <updated>2017-12-25T13:30:36.726Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这篇文章主要会涵盖&lt;strong&gt;市场背景、产品经理分类、产品经理成长路径、产品经理职业发展&lt;/strong&gt; 四大块。&lt;/p&gt;
-&lt;h2 id=&quot;市场背景&quot;&gt;&lt;a href=&quot;#市场背景&quot; class=&quot;headerlink&quot; title=&quot;市场背景&quot;&gt;&lt;/a&gt;市场背景&lt;/h2&gt;&lt;p&gt;中国市面上直接以“产品经理”冠名的人数有多少？&lt;/p&gt;
-&lt;p&gt;app store有多少中国产品，再加上那些深入到线下的产品（比如智能家居、健身器材、实体电商等等）一个项目可能会有多位产品经理，还有那些没有冠名上“产品经理”的title，但是实际上干的却是产品经理活的很多创业公司的CEO等……&lt;/p&gt;
-&lt;p&gt;没有一个直接的统计，但我想，产品经理人数可能差不多有百万了，而且还在不断的增加。&lt;/p&gt;
-&lt;p&gt;这是我们现在做产品经理的人所面对的基准市场 —  百万人竞争的领域。&lt;br&gt;
     
     </summary>
     
