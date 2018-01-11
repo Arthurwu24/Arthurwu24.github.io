@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-10T10:11:37.835Z</updated>
+  <updated>2018-01-11T04:46:13.848Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>腾讯2</title>
+    <link href="http://yoursite.com/2018/01/11/%E8%85%BE%E8%AE%AF2/"/>
+    <id>http://yoursite.com/2018/01/11/腾讯2/</id>
+    <published>2018-01-11T04:46:13.000Z</published>
+    <updated>2018-01-11T04:46:13.848Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>腾讯QQ和微信的进化史(1)</title>
@@ -467,27 +481,6 @@
 &lt;p&gt;app store有多少中国产品，再加上那些深入到线下的产品（比如智能家居、健身器材、实体电商等等）一个项目可能会有多位产品经理，还有那些没有冠名上“产品经理”的title，但是实际上干的却是产品经理活的很多创业公司的CEO等……&lt;/p&gt;
 &lt;p&gt;没有一个直接的统计，但我想，产品经理人数可能差不多有百万了，而且还在不断的增加。&lt;/p&gt;
 &lt;p&gt;这是我们现在做产品经理的人所面对的基准市场 —  百万人竞争的领域。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="产品经理" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/"/>
-    
-    
-      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>产品经理的过去</title>
-    <link href="http://yoursite.com/2017/12/19/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%9A%84%E8%BF%87%E5%8E%BB/"/>
-    <id>http://yoursite.com/2017/12/19/产品经理的过去/</id>
-    <published>2017-12-19T08:44:58.000Z</published>
-    <updated>2017-12-25T13:31:02.774Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;看到周边还是有朋友或者读者问过我关于“产品经理”这个领域的相关问题，这里我也就写一篇文章，说一说我个人对产品经理这个岗位的理解。&lt;/p&gt;
-&lt;p&gt;看到还是有不少人想往产品这个领域挤，有的甚至是工作了5，6年的，然后想换一个互联网的行业（因为听说互联网行业的薪资比较高），一打听，看到“产品经理”这个岗位好像不需要啥硬性技能，没有像程序员那样需要天天敲代码，然后title里还有经理二字，薪资呢，也还不错，干的活好像就是一些画画线框图、做做调研、写写分析报告这样的工作，自己完全可以胜任嘛。&lt;br&gt;
     
     </summary>
     
