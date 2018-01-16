@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-15T10:00:28.973Z</updated>
+  <updated>2018-01-16T07:35:48.555Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>内容运营</title>
+    <link href="http://yoursite.com/content-operation.html"/>
+    <id>http://yoursite.com/content-operation.html</id>
+    <published>2018-01-16T05:55:53.000Z</published>
+    <updated>2018-01-16T07:35:48.555Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;用户运营、活动运营都已经说过了，这次来说说最后一个大块“&lt;strong&gt;内容运营&lt;/strong&gt;”。&lt;/p&gt;
+&lt;p&gt;内容运营用一句通俗的话来说，就是“写软文的”。&lt;/p&gt;
+&lt;p&gt;像快手、斗鱼、豆瓣、虎嗅、A/B站等这样的平台，都需要做内容运营的人。&lt;/p&gt;
+&lt;p&gt;给内容运营下一个定义，其实就是，“贯通从内容生产–内容消费–内容传播整条线的工作。”&lt;br&gt;
+    
+    </summary>
+    
+      <category term="运营" scheme="http://yoursite.com/categories/%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="运营" scheme="http://yoursite.com/tags/%E8%BF%90%E8%90%A5/"/>
+    
+      <category term="内容运营" scheme="http://yoursite.com/tags/%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>活动运营</title>
@@ -477,28 +502,6 @@
       &lt;h3 id=&quot;爬虫课程&quot;&gt;&lt;a href=&quot;#爬虫课程&quot; class=&quot;headerlink&quot; title=&quot;爬虫课程&quot;&gt;&lt;/a&gt;爬虫课程&lt;/h3&gt;&lt;p&gt;今天的爬虫课程主要教爬&lt;strong&gt;图片&lt;/strong&gt;和&lt;strong&gt;结构体&lt;/strong&gt;。&lt;/p&gt;
 &lt;h4 id=&quot;爬图片&quot;&gt;&lt;a href=&quot;#爬图片&quot; class=&quot;headerlink&quot; title=&quot;爬图片&quot;&gt;&lt;/a&gt;爬图片&lt;/h4&gt;&lt;p&gt;前面跟爬文本是一样的操作。&lt;/p&gt;
 &lt;p&gt;这里以一个图片链接为例子：&lt;a href=&quot;http://www.woyaogexing.com/tupian/z/gougou&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.woyaogexing.com/tupian/z/gougou&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="爬虫抓数据" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB%E6%8A%93%E6%95%B0%E6%8D%AE/"/>
-    
-    
-      <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>不会编程，也能爬虫抓取数据(1)</title>
-    <link href="http://yoursite.com/webscraper%E6%8A%93%E5%8F%96%E6%95%B0%E6%8D%AE-1.html"/>
-    <id>http://yoursite.com/webscraper抓取数据-1.html</id>
-    <published>2017-12-21T13:50:31.000Z</published>
-    <updated>2017-12-25T13:28:57.076Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;很多人以为只有学会代码，才能爬虫抓数据，这里给大伙讲解一个不用懂编程，也能爬虫抓数据的教程。&lt;/p&gt;
-&lt;p&gt;本合集课程会由浅入深，分为3篇。&lt;/p&gt;
-&lt;p&gt;今天第一篇，先从简单的文本、链接、图片、结构体给大家讲解下具体爬虫的过程。&lt;br&gt;
     
     </summary>
     
