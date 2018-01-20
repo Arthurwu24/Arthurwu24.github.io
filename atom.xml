@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-18T08:56:36.008Z</updated>
+  <updated>2018-01-20T07:51:23.159Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>人工智能时代(1)</title>
+    <link href="http://yoursite.com/Artificial-Intelligence.html"/>
+    <id>http://yoursite.com/Artificial-Intelligence.html</id>
+    <published>2018-01-20T05:31:47.000Z</published>
+    <updated>2018-01-20T07:51:23.159Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大概在17年中的时候，决定以后要转向&lt;strong&gt;AI产品经理&lt;/strong&gt;，从移动互联网PM跨度到人工智能PM，其实是一个挺大的转变。&lt;/p&gt;
+&lt;p&gt;之后会用一系列文章来记录我个人学习AI的历程。&lt;/p&gt;
+&lt;p&gt;其实在下决心到现在中间已经看过了很多相关的书籍，也看过Andrew的coursera的课程，但一直没有亲自记录下来。&lt;/p&gt;
+&lt;p&gt;接下来的很多文章，我就会一步步的把一个移动互联网PM所需要了解到的PM知识都记录下来，也供要转行的人可以借鉴下。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="人工智能" scheme="http://yoursite.com/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    
+      <category term="人工智能" scheme="http://yoursite.com/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>内容创业的那些事</title>
@@ -483,29 +506,6 @@
       &lt;h3 id=&quot;爬虫课程&quot;&gt;&lt;a href=&quot;#爬虫课程&quot; class=&quot;headerlink&quot; title=&quot;爬虫课程&quot;&gt;&lt;/a&gt;爬虫课程&lt;/h3&gt;&lt;p&gt;今天要讲的是关于如何结合运用多个selector。&lt;/p&gt;
 &lt;p&gt;比如，你看58租房平台的信息，但是首页是不显示电话号码的，非要点进每天信息的详情页中才能看到电话，那么怎么才能把这些聚合在一起，连电话号码都一起抓取出来呢？&lt;/p&gt;
 &lt;p&gt;这里，以&lt;a href=&quot;http://bj.58.com/chuzu/?key%20=%20%E7%A7%9F%E6%88%BF%20&amp;amp;%20cmcskey%20=%20%E7%A7%9F%E6%88%BF%20&amp;amp;%20final=1&amp;amp;jump=1&amp;amp;specialtype=gls&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;58同城租房&lt;/a&gt;为例。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="爬虫抓数据" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB%E6%8A%93%E6%95%B0%E6%8D%AE/"/>
-    
-    
-      <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>不会编程，也能爬虫抓取数据(3)</title>
-    <link href="http://yoursite.com/webscraper-fetch-data-3.html"/>
-    <id>http://yoursite.com/webscraper-fetch-data-3.html</id>
-    <published>2017-12-22T02:21:03.000Z</published>
-    <updated>2017-12-25T13:28:02.169Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;爬虫课程&quot;&gt;&lt;a href=&quot;#爬虫课程&quot; class=&quot;headerlink&quot; title=&quot;爬虫课程&quot;&gt;&lt;/a&gt;爬虫课程&lt;/h3&gt;&lt;p&gt;今天的爬虫课程主要讲爬&lt;strong&gt;多级页面&lt;/strong&gt;下的内容。（比如有些页面会有下一页，要点加载下一页或者滑动到下一页）&lt;/p&gt;
-&lt;h4 id=&quot;Element-scroll-down&quot;&gt;&lt;a href=&quot;#Element-scroll-down&quot; class=&quot;headerlink&quot; title=&quot;Element scroll down&quot;&gt;&lt;/a&gt;Element scroll down&lt;/h4&gt;&lt;p&gt;这个是滑动页面加载下一页。&lt;/p&gt;
-&lt;p&gt;这里以微博为例，爬取加载下一页的当前页面内容的标题。&lt;/p&gt;
-&lt;p&gt;以自己老早之前写的微博为例，id：&lt;a href=&quot;https://weibo.com/p/1005052996070562/home?from=page_100505&amp;amp;mod=TAB&amp;amp;is_all=1#_rnd1513909777211&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Arthurwu24&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
