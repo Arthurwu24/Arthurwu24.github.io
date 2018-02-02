@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/madong.html</loc>
+    
+    <lastmod>2018-02-02T13:39:45.849Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2018-02-02T04:33:02.321Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/Artificial-Intelligence.html</loc>
     
     <lastmod>2018-01-20T08:12:50.688Z</lastmod>
@@ -208,13 +222,6 @@
     <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2017-12-21T00:31:22.123Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2017-12-21T00:30:51.454Z</lastmod>
     
   </url>
   

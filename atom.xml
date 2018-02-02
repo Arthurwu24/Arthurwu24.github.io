@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-20T08:12:50.688Z</updated>
+  <updated>2018-02-02T13:39:45.849Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在我眼中的马东</title>
+    <link href="http://yoursite.com/madong.html"/>
+    <id>http://yoursite.com/madong.html</id>
+    <published>2018-02-01T08:58:43.000Z</published>
+    <updated>2018-02-02T13:39:45.849Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;马东，多的不说了。&lt;/p&gt;
+&lt;p&gt;对内容和生意分的非常清楚，这就已经很难得了。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/a86515f4d530&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="个人成长" scheme="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
+    
+    
+      <category term="马东" scheme="http://yoursite.com/tags/%E9%A9%AC%E4%B8%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>人工智能时代(1)</title>
@@ -454,9 +482,9 @@
       <category term="产品分析" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/"/>
     
     
-      <category term="短视频" scheme="http://yoursite.com/tags/%E7%9F%AD%E8%A7%86%E9%A2%91/"/>
-    
       <category term="产品分析" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/"/>
+    
+      <category term="短视频" scheme="http://yoursite.com/tags/%E7%9F%AD%E8%A7%86%E9%A2%91/"/>
     
       <category term="直播" scheme="http://yoursite.com/tags/%E7%9B%B4%E6%92%AD/"/>
     
@@ -486,33 +514,11 @@
       <category term="产品分析" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/"/>
     
     
-      <category term="短视频" scheme="http://yoursite.com/tags/%E7%9F%AD%E8%A7%86%E9%A2%91/"/>
-    
       <category term="产品分析" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/"/>
     
+      <category term="短视频" scheme="http://yoursite.com/tags/%E7%9F%AD%E8%A7%86%E9%A2%91/"/>
+    
       <category term="直播" scheme="http://yoursite.com/tags/%E7%9B%B4%E6%92%AD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>不会编程，也能爬虫抓取数据(4)</title>
-    <link href="http://yoursite.com/webscraper-fetch-data-4.html"/>
-    <id>http://yoursite.com/webscraper-fetch-data-4.html</id>
-    <published>2017-12-22T14:24:18.000Z</published>
-    <updated>2017-12-25T13:27:23.434Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;爬虫课程&quot;&gt;&lt;a href=&quot;#爬虫课程&quot; class=&quot;headerlink&quot; title=&quot;爬虫课程&quot;&gt;&lt;/a&gt;爬虫课程&lt;/h3&gt;&lt;p&gt;今天要讲的是关于如何结合运用多个selector。&lt;/p&gt;
-&lt;p&gt;比如，你看58租房平台的信息，但是首页是不显示电话号码的，非要点进每天信息的详情页中才能看到电话，那么怎么才能把这些聚合在一起，连电话号码都一起抓取出来呢？&lt;/p&gt;
-&lt;p&gt;这里，以&lt;a href=&quot;http://bj.58.com/chuzu/?key%20=%20%E7%A7%9F%E6%88%BF%20&amp;amp;%20cmcskey%20=%20%E7%A7%9F%E6%88%BF%20&amp;amp;%20final=1&amp;amp;jump=1&amp;amp;specialtype=gls&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;58同城租房&lt;/a&gt;为例。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="爬虫抓数据" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB%E6%8A%93%E6%95%B0%E6%8D%AE/"/>
-    
-    
-      <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
