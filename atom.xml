@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-02T13:42:07.182Z</updated>
+  <updated>2018-02-07T07:25:45.638Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于产品经理的碎碎念</title>
+    <link href="http://yoursite.com/something-about-product.html"/>
+    <id>http://yoursite.com/something-about-product.html</id>
+    <published>2018-02-07T06:20:48.000Z</published>
+    <updated>2018-02-07T07:25:45.638Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近看了一些书，也看了一些相关的文章，想聊一些关于产品经理的想法。&lt;/p&gt;
+&lt;p&gt;到底什么是产品经理？如何成为一个好的产品经理？&lt;/p&gt;
+&lt;h3 id=&quot;什么是产品经理？&quot;&gt;&lt;a href=&quot;#什么是产品经理？&quot; class=&quot;headerlink&quot; title=&quot;什么是产品经理？&quot;&gt;&lt;/a&gt;什么是产品经理？&lt;/h3&gt;&lt;p&gt;产品经理说到底就是把老板的想法、公司的战略具象化生成一个实际的产品，投放到市场上，满足特定用户人群的需求的一个职位。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="产品经理" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/"/>
+    
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
   
   <entry>
     <title>我眼中的马东</title>
@@ -476,38 +498,6 @@
       &lt;p&gt;前面一篇也说了，直播16年国内市场到达顶峰“网络直播元年”，后期也每况愈下，风口转向了短视频。&lt;/p&gt;
 &lt;p&gt;相比于直播，短视频有什么优势呢？&lt;/p&gt;
 &lt;p&gt;前面我们说了直播的劣势，那么相比较下来，直播的劣势就是短视频的优势。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="产品分析" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/"/>
-    
-    
-      <category term="短视频" scheme="http://yoursite.com/tags/%E7%9F%AD%E8%A7%86%E9%A2%91/"/>
-    
-      <category term="产品分析" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/"/>
-    
-      <category term="直播" scheme="http://yoursite.com/tags/%E7%9B%B4%E6%92%AD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>聊聊直播和短视频(1)</title>
-    <link href="http://yoursite.com/zhibo.html"/>
-    <id>http://yoursite.com/zhibo.html</id>
-    <published>2017-12-23T10:19:40.000Z</published>
-    <updated>2017-12-25T13:26:47.506Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这两年来，中国的风口是从直播吹到了短视频。&lt;/p&gt;
-&lt;p&gt;下面就说说我个人这几年来对直播和短视频的理解和看法。&lt;/p&gt;
-&lt;h3 id=&quot;直播&quot;&gt;&lt;a href=&quot;#直播&quot; class=&quot;headerlink&quot; title=&quot;直播&quot;&gt;&lt;/a&gt;直播&lt;/h3&gt;&lt;p&gt;直播是在15年开始兴起的，但在16年迎来了“网络直播元年”，彻底引爆了市场。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;映客2年估值70亿&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;陌陌在切入直播领域后股价飙升，直播占陌陌年收入的80%&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;市场各大平台主播薪资相比15年大概翻了10倍，头部的游戏主播甚至年收入基本过千万&lt;/p&gt;
     
     </summary>
     
