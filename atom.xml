@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-11T05:45:13.544Z</updated>
+  <updated>2018-02-23T09:38:02.854Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>全闭环详述增长黑客</title>
+    <link href="http://yoursite.com/growth-hack-acquisition.html"/>
+    <id>http://yoursite.com/growth-hack-acquisition.html</id>
+    <published>2018-02-23T06:41:10.000Z</published>
+    <updated>2018-02-23T09:38:02.854Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;随着现阶段互联网线上红利已消耗殆尽，增长黑客（growth hack）这个概念被越炒越热，之前在国内只有像BAT、TMD这样的第一梯队公司才有真正的资源和意愿去做这样的事，那么现在已经有越来越多的中小型公司也开始招聘“增长黑客”这样的相关人才了。&lt;/p&gt;
+&lt;p&gt;之前写过一篇关于增长黑客AARRR模型的文章（&lt;a href=&quot;http://www.jumeispace.com/app-operation.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;增长黑客必须了解的AARRR模型&lt;/a&gt;），对于AARRR这5个不同阶段分别做了总论型的阐述，今天在这里会把“增长黑客”整个理论说的更加细致一些。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="产品经理" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/"/>
+    
+    
+      <category term="产品经理" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>傅盛的“认知三部曲”，我们能从中学到什么？</title>
@@ -218,7 +239,7 @@
     <link href="http://yoursite.com/app-operation.html"/>
     <id>http://yoursite.com/app-operation.html</id>
     <published>2018-01-11T08:35:03.000Z</published>
-    <updated>2018-02-23T02:39:07.513Z</updated>
+    <updated>2018-02-23T08:07:47.625Z</updated>
     
     <summary type="html">
     
@@ -311,9 +332,9 @@
       <category term="个人成长" scheme="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
     
     
-      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
       <category term="个人成长" scheme="http://yoursite.com/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
     
       <category term="汪华" scheme="http://yoursite.com/tags/%E6%B1%AA%E5%8D%8E/"/>
     
@@ -337,9 +358,9 @@
       <category term="个人成长" scheme="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
     
     
-      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
       <category term="个人成长" scheme="http://yoursite.com/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
     
       <category term="庄辰超" scheme="http://yoursite.com/tags/%E5%BA%84%E8%BE%B0%E8%B6%85/"/>
     
@@ -365,9 +386,9 @@
       <category term="个人成长" scheme="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
     
     
-      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
       <category term="个人成长" scheme="http://yoursite.com/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
     
       <category term="王兴" scheme="http://yoursite.com/tags/%E7%8E%8B%E5%85%B4/"/>
     
@@ -487,29 +508,6 @@
     
     
       <category term="产品分析" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2017年年末总结</title>
-    <link href="http://yoursite.com/2017summary.html"/>
-    <id>http://yoursite.com/2017summary.html</id>
-    <published>2017-12-27T07:42:01.000Z</published>
-    <updated>2017-12-28T06:53:37.811Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;为什么需要做总结？&quot;&gt;&lt;a href=&quot;#为什么需要做总结？&quot; class=&quot;headerlink&quot; title=&quot;为什么需要做总结？&quot;&gt;&lt;/a&gt;为什么需要做总结？&lt;/h4&gt;&lt;p&gt;2017年就快结束了，新的一年总归是需要对这一年发生的种种做个总结。&lt;/p&gt;
-&lt;p&gt;也希望这个可以成为惯例，每年年中、年终都阶段性的做一次总结。&lt;/p&gt;
-&lt;p&gt;因为，回顾一年12个月来发生的事情，每个人都可以做一次&lt;strong&gt;“事后诸葛”&lt;/strong&gt;，这种时候每个人都总是快乐的。&lt;/p&gt;
-&lt;p&gt;总体来说，17年可以分为2个阶段，来&lt;strong&gt;帝都前&lt;/strong&gt;和来&lt;strong&gt;帝都后&lt;/strong&gt;。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="年终总结" scheme="http://yoursite.com/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
-    
-    
-      <category term="总结" scheme="http://yoursite.com/tags/%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
